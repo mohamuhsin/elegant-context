@@ -32,6 +32,7 @@ export default function Cart({ onUpdateItemQuantity }) {
                   </button>
                   <span>{item.quantity}</span>
                   <button onClick={() => updateCartItemQuantity(item.id, 1)}>
+
                     +
                   </button>
                 </div>

@@ -2,7 +2,7 @@ import { useRef } from 'react';
 
 import CartModal from './CartModal.jsx';
 
-export default function Header({ cart, onUpdateCartItemQuantity }) {
+export default function Header({ cart}) {
   const modal = useRef();
 
   const cartQuantity = cart.items.length;
@@ -27,7 +27,6 @@ export default function Header({ cart, onUpdateCartItemQuantity }) {
       <CartModal
         ref={modal}
         cartItems={cart.items}
-        onUpdateCartItemQuantity={onUpdateCartItemQuantity}
         title="Your Cart"
         actions={modalActions}
       />

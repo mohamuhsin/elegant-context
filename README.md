@@ -2,7 +2,7 @@
 
 This project demonstrates the problem of <b>PROP DRILLING</b> in React and how to solve it.
 
-## PROP DRILLING
+## PROP DRILLING:
 
 Prop drilling involves passing of props down manually from component to component to where they
 are needed.

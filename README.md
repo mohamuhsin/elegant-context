@@ -20,7 +20,7 @@ createContext creates and setups the data thats needs to be shared while useCont
 whenever required which would be ideally be done with props forwarding. Context API cuts the path.
 
 
-## Use of Context API in this project
+## Use of Context API in this project:
 
 A context names 'CartContext' has been created and used to provide context to manage items in the cart and functions as
 handleAddItemToCart which adds item to the cart and handleUpdateCartItemQuantity quantity updates on items on cart.

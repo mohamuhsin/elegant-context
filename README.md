@@ -10,7 +10,7 @@ are needed.
 The problem with prop drilling is that, as the application grows in complexity, 
 passing data through multiple levels of components can become complex and error-prone.
 
-## Context API 
+## Context API:
 
 Context API helps solve the challenges of prop drilling, it manages all the global state and data without passing
 from one component to the next.
